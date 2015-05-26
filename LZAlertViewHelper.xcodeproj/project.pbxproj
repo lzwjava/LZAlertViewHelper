@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		704A429B1B14432300849C51 /* LZAlertViewHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 704A429A1B14432300849C51 /* LZAlertViewHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		704A42A11B14432300849C51 /* LZAlertViewHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 704A42951B14432300849C51 /* LZAlertViewHelper.framework */; };
 		704A42A81B14432300849C51 /* LZAlertViewHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 704A42A71B14432300849C51 /* LZAlertViewHelperTests.m */; };
-		704A42B41B14462800849C51 /* LZAlertViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 704A42B31B14462800849C51 /* LZAlertViewHelper.m */; };
+		704A42B81B14476900849C51 /* LZAlertViewHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 704A42B61B14476900849C51 /* LZAlertViewHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		704A42B91B14476900849C51 /* LZAlertViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 704A42B71B14476900849C51 /* LZAlertViewHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,11 +26,11 @@
 /* Begin PBXFileReference section */
 		704A42951B14432300849C51 /* LZAlertViewHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LZAlertViewHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		704A42991B14432300849C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		704A429A1B14432300849C51 /* LZAlertViewHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZAlertViewHelper.h; sourceTree = "<group>"; };
 		704A42A01B14432300849C51 /* LZAlertViewHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZAlertViewHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		704A42A61B14432300849C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		704A42A71B14432300849C51 /* LZAlertViewHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZAlertViewHelperTests.m; sourceTree = "<group>"; };
-		704A42B31B14462800849C51 /* LZAlertViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZAlertViewHelper.m; sourceTree = "<group>"; };
+		704A42B61B14476900849C51 /* LZAlertViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZAlertViewHelper.h; sourceTree = "<group>"; };
+		704A42B71B14476900849C51 /* LZAlertViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZAlertViewHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +73,7 @@
 		704A42971B14432300849C51 /* LZAlertViewHelper */ = {
 			isa = PBXGroup;
 			children = (
-				704A429A1B14432300849C51 /* LZAlertViewHelper.h */,
-				704A42B31B14462800849C51 /* LZAlertViewHelper.m */,
+				704A42B51B14476900849C51 /* Classes */,
 				704A42981B14432300849C51 /* Supporting Files */,
 			);
 			path = LZAlertViewHelper;
@@ -105,6 +104,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		704A42B51B14476900849C51 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				704A42B61B14476900849C51 /* LZAlertViewHelper.h */,
+				704A42B71B14476900849C51 /* LZAlertViewHelper.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -112,7 +120,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				704A429B1B14432300849C51 /* LZAlertViewHelper.h in Headers */,
+				704A42B81B14476900849C51 /* LZAlertViewHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				704A42B41B14462800849C51 /* LZAlertViewHelper.m in Sources */,
+				704A42B91B14476900849C51 /* LZAlertViewHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
