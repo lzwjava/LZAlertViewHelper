@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = "AlertView Util"
   s.description  = "Use block to handle UIAlertView callback, instead of delegate"
   s.homepage     = "https://github.com/lzwjava/LZAlertViewHelper"
-  s.license      = "MIT"
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "lzwjava" => "lzwjava@gmail.com" }
   s.social_media_url   = "http://weibo.com/zhiweilee"
   s.platform     = :ios
