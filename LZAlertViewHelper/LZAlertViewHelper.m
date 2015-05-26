@@ -11,20 +11,8 @@
 @interface LZAlertViewHelper()<UIAlertViewDelegate>
 
 @property (nonatomic, copy) LZAlertViewHelperFinishBlock finishBlock;
-//
-//  LZAlertViewHelper.h
-//  LZAlertViewHelper
-//
-//  Created by lzw on 15/5/26.
-//  Copyright (c) 2015年 lzwjava QQ: 651142978. All rights reserved.
-//
-@property (nonatomic, assig//
-           //  LZAlertViewHelper.h
-           //  LZAlertViewHelper
-           //
-           //  Created by lzw on 15/5/26.
-           //  Copyright (c) 2015年 lzwjava QQ: 651142978. All rights reserved.
-           //n) UIAlertViewStyle alertViewStyle;
+
+@property (nonatomic, assign) UIAlertViewStyle alertViewStyle;
 
 @property (nonatomic, strong) NSString *inputText;
 
