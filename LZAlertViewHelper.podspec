@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://weibo.com/zhiweilee"
   s.platform     = :ios
   s.source       = { :git => "http://EXAMPLE/LZAlertViewHelper.git", :tag => "0.0.1" }
-  s.source_files  = "LZAlertViewHelper/Classes/**/*.{h,m}"
+  s.source_files = "LZAlertViewHelper/Classes/**/*.{h,m}"
   s.requires_arc = true
 end
