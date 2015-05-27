@@ -22,7 +22,9 @@ typedef void(^LZAlertViewHelperFinishBlock)(BOOL confirm, NSString *text);
 
 - (void)showInputAlertViewWithMessage:(NSString *)message block:(LZAlertViewHelperFinishBlock)block;
 
-- (void)showAlertViewWithMessage:(NSString *)message block:(LZAlertViewHelperFinishBlock)block;
+- (void)showConfirmAlertViewWithMessage:(NSString *)message block:(LZAlertViewHelperFinishBlock)block;
+
+- (void)showAlertViewWithMessage:(NSString *)message;
 
 @end
 

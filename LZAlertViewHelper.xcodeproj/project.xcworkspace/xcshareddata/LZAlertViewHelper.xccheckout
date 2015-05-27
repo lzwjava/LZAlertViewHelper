@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>274AD61B-CE53-4BEC-B1EE-2320B8B8C5AC</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>LZAlertViewHelper</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>E43E601A6ADF09006E4D0F49B7A1CDF4EB424600</key>
 		<string>github.com:lzwjava/LZAlertViewHelper.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>LZAlertViewHelper.xcodeproj/project.xcworkspace</string>
+	<string>LZAlertViewHelper.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>E43E601A6ADF09006E4D0F49B7A1CDF4EB424600</key>

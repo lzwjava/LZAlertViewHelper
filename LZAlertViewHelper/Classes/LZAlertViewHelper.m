@@ -34,8 +34,12 @@
     [self showAlertViewWithMessage:message type:UIAlertViewStylePlainTextInput block:block];
 }
 
-- (void)showAlertViewWithMessage:(NSString *)message block:(LZAlertViewHelperFinishBlock)block {
+- (void)showConfirmAlertViewWithMessage:(NSString *)message block:(LZAlertViewHelperFinishBlock)block {
     [self showAlertViewWithMessage:message type:UIAlertViewStyleDefault block:block];
+}
+
+- (void)showAlertViewWithMessage:(NSString *)message {
+    [[[UIAlertView alloc] initWithTitle:nil message:message delegate:nil cancelButtonTitle:@"好的" otherButtonTitles:nil] show];
 }
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
